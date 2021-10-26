@@ -23,6 +23,8 @@ After POST
     "download_url": "http://127.0.0.1:8000/20/download"
 }
 ```
+After POST request this image will be saved in folder "media" from your BASE_DIR. 
+By clicking on "download_url" your image will be saved in BASE_DIR direction.
 ### ATTENTION!
 Values of "id" field and value after your local hos IP in "download_url" should be the same!!! 
 If you want to download image directly from URL field in your browser, enter "http://your_local_host_IP/id_of_image/download" (ex. http://127.0.0.1:8000/20/download).
